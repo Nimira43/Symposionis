@@ -1,1 +1,1 @@
-<template>Order List</template>
+<template>Order Management</template>

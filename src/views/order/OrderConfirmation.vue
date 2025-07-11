@@ -1,1 +1,1 @@
-<template>Order Management</template>
+<template>Order Confirmation</template>
