@@ -23,52 +23,52 @@ const router = createRouter({
     {
       path: '/no-access',
       name: APP_ROUTE_NAMES.ACCESS_DENIED,
-      component: 
+      component: NoAccess
+    },
+    {
+      path: '/sign-in',
+      name: APP_ROUTE_NAMES.SIGN_IN,
+      component: SignIn
+    },
+    {
+      path: '/sign-up',
+      name: APP_ROUTE_NAMES.SIGN_UP,
+      component: SignUp
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
     },
     {
       path: '/:catchAll(.*)',
       name: APP_ROUTE_NAMES.NOT_FOUND,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
-    },
-    {
-      path: '/',
-      name: APP_ROUTE_NAMES.HOME,
-      component: Home
+      component: NotFound
     },
   ],
 })
