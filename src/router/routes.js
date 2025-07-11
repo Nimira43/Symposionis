@@ -9,12 +9,68 @@ import MenuItemUpsert from '@/views/menu-item/MenuItemList.vue'
 import OrderConfirmation from '@/views/order/OrderConfirmation.vue'
 import OrderHistoryList from '@/views/order/OrderHistoryList.vue'
 import OrderManagement from '@/views/order/OrderManagement.vue'
-
+import { APP_ROUTE_NAMES } from '@/constants/routeNames'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
+  routes: [
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/no-access',
+      name: APP_ROUTE_NAMES.ACCESS_DENIED,
+      component: 
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: APP_ROUTE_NAMES.NOT_FOUND,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+    {
+      path: '/',
+      name: APP_ROUTE_NAMES.HOME,
+      component: Home
+    },
+  ],
 })
 
 export default router

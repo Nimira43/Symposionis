@@ -10,5 +10,5 @@ export const APP_ROUTE_NAMES = Object.freeze({
   CART: 'cart',
   NOT_FOUND: 'not-found',
   ACCESS_DENIED: 'access-denied',
-  ORDER_CONFIRM: 'order-confirmation',
+  ORDER_CONFIRM: 'order-confirmed',
 })
