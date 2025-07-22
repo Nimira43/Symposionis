@@ -14,3 +14,7 @@
     </div>
   </nav>
 </template>
+
+<script>
+import { APP_ROUTE_NAMES } from '@/constants/routeNames'
+</script>
