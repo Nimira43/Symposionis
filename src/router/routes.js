@@ -67,7 +67,7 @@ const router = createRouter({
       component: OrderHistoryList
     },
     {
-      path: 'admin/order-management',
+      path: '/admin/order-management',
       name: APP_ROUTE_NAMES.MANAGE_ORDER_ADMIN,
       component: OrderManagement
     },
