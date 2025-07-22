@@ -1,7 +1,9 @@
 <template>
-  <Header />
-  <RouterView />
-  <Footer />
+  <div class="d-flex flex-column py-2 min-vh-100 container-md">
+    <Header />
+    <RouterView />
+    <Footer />
+  </div>
 </template>
 
 
@@ -11,104 +13,3 @@ import Footer from './components/layout/Footer.vue'
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<style scoped>
-:root {
-  --prime: #ff4500;
-  --support: #008080;
-  --support-dark: #012222;
-  --support-light: #a9a9a9;
-  --gold: #ffd700;
-  --sky: #87ceeb;
-  --dark: #111;
-  --light: #fffcfa;
-  --grey-dark: #333;
-  --grey-medium: #999;
-  --grey-light: #ccc;
-  --grey-light-extra: #eee;
-}
-
-.text-prime {
-  color: var(--prime) !important;
-}
-.bg-prime {
-  background-color: var(--prime);
-}
-
-.text-support {
-  color: var(--support);
-}
-.bg-support {
-  background-color: var(--support);
-}
-
-.text-support-dark {
-  color: var(--support-dark);
-}
-.bg-support-dark {
-  background-color: var(--support-dark);
-}
-
-.text-support-light {
-  color: var(--support-light);
-}
-.bg-support-light {
-  background-color: var(--support-light);
-}
-
-.text-gold {
-  color: var(--gold);
-}
-.bg-gold {
-  background-color: var(--gold);
-}
-
-.text-sky {
-  color: var(--sky);
-}
-.bg-sky {
-  background-color: var(--sky);
-}
-
-.text-dark {
-  color: var(--dark);
-}
-.bg-dark {
-  background-color: var(--dark);
-}
-
-.text-light {
-  color: var(--light);
-}
-.bg-light {
-  background-color: var(--light);
-}
-
-.text-grey-dark {
-  color: var(--grey-dark);
-}
-.bg-grey-dark {
-  background-color: var(--grey-dark);
-}
-
-.text-grey-medium {
-  color: var(--grey-medium);
-}
-.bg-grey-medium {
-  background-color: var(--grey-medium);
-}
-
-.text-grey-light {
-  color: var(--grey-light);
-}
-.bg-grey-light {
-  background-color: var(--grey-light);
-}
-
-.text-grey-light-extra {
-  color: var(--grey-light-extra);
-}
-.bg-grey-light-extra {
-  background-color: var(--grey-light-extra);
-}
-
-</style>
