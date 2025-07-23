@@ -29,7 +29,7 @@
           <li class="nav-item">
             <router-link 
               :to="{name: APP_ROUTE_NAMES.HOME}" 
-              class="nav-link active" 
+              class="nav-link text-uppercase active" 
               aria-current="page"
             >
               Home
@@ -38,11 +38,22 @@
           <li class="nav-item">
             <router-link 
               :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
-              class="nav-link" 
+              class="nav-link text-uppercase" 
               aria-current="page"
             >
               Orders
             </router-link>
+          </li>
+          <li class="nav-item dropdown">
+            <a 
+              href="#"
+              class="nav-link text-uppercase dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Admin
+            </a>
           </li>
         </ul>
       </div>
