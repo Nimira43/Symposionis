@@ -44,6 +44,7 @@
               Orders
             </router-link>
           </li>
+          
           <li class="nav-item dropdown">
             <a 
               href="#"
@@ -52,7 +53,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <i class="bi bi-laptop"></i>
+              Admin
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -113,7 +114,6 @@
               Logout
             </button>
           </li>
-
           <li class="nav-item dropdown">
             <a 
               href="#"
@@ -122,26 +122,26 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Admin
+              <i class="bi bi-laptop"></i>
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link 
-                  :to="{name: APP_ROUTE_NAMES.MENU_ITEM_LIST}" 
-                  class="dropdown-item text-uppercase" 
-                  aria-current="page"
+                <button
+                  class="dropdown-item"
+                  aria-content="page"
                 >
-                  Menu Items
-                </router-link>
+                  <i class="bi bi-sun"></i>
+                  Light
+                </button>
               </li>
               <li>
-                <router-link 
-                  :to="{name: APP_ROUTE_NAMES.MANAGE_ORDER_ADMIN}" 
-                  class="dropdown-item text-uppercase" 
-                  aria-current="page"
+                <button
+                  class="dropdown-item"
+                  aria-content="page"
                 >
-                  Order Management
-                </router-link>
+                  <i class="bi bi-moon"></i>
+                  Dark
+                </button>
               </li>
             </ul>  
           </li>
