@@ -27,7 +27,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">Home</a>
+            <router-link 
+              :to="{name: APP_ROUTE_NAMES.HOME}" 
+              class="nav-link active" 
+              aria-current="page"
+            >
+              Home
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link 
+              :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
+              class="nav-link" 
+              aria-current="page"
+            >
+              Orders
+            </router-link>
           </li>
         </ul>
       </div>
