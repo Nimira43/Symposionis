@@ -73,8 +73,11 @@
                   Order Management
                 </router-link>
               </li>
-            </ul>
+            </ul>  
           </li>
+        </ul>
+        <ul class="navbar-nav ms-auto align-items-center small">
+          <li class="nav-item mx-3">Button!</li>
         </ul>
       </div>
     </div>
