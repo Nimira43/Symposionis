@@ -77,7 +77,15 @@
           </li>
         </ul>
         <ul class="navbar-nav ms-auto align-items-center small">
-          <li class="nav-item mx-3 text-uppercase">Cart</li>
+          <li class="nav-item">
+            <router-link 
+              :to="{name: APP_ROUTE_NAMES.CART}" 
+              class="nav-link px-2 position-relativ text-uppercase" 
+              aria-current="page"
+            >
+              <i class="bi bi-cart2"></i>
+            </router-link>
+          </li>
           <li class="nav-item">
             <router-link 
               :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
