@@ -6,7 +6,7 @@
         :to="{name: APP_ROUTE_NAMES.HOME}"
       >
         <img 
-          src="@/assets/logo.png" 
+          src="@/assets/logo-2.png" 
           alt="Unicorn logo"
           width="30"
           height="30"
