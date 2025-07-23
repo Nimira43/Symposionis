@@ -77,7 +77,33 @@
           </li>
         </ul>
         <ul class="navbar-nav ms-auto align-items-center small">
-          <li class="nav-item mx-3">Button!</li>
+          <li class="nav-item mx-3 text-uppercase">Cart</li>
+          <li class="nav-item">
+            <router-link 
+              :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
+              class="nav-link text-uppercase" 
+              aria-current="page"
+            >
+              Login
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link 
+              :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
+              class="nav-link text-uppercase" 
+              aria-current="page"
+            >
+              Register
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <button 
+              class="nav-link px-2 text-uppercase" 
+              aria-current="page"
+            >
+              Logout
+            </button>
+          </li>
         </ul>
       </div>
     </div>
