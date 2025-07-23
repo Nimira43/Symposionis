@@ -77,18 +77,19 @@
           </li>
         </ul>
         <ul class="navbar-nav ms-auto align-items-center small">
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <router-link 
               :to="{name: APP_ROUTE_NAMES.CART}" 
-              class="nav-link px-2 position-relativ text-uppercase" 
+              class="nav-link px-2 position-relative text-uppercase" 
               aria-current="page"
             >
               <i class="bi bi-cart2"></i>
+              <span class="position-absolute start-100 translate-middle badge rounded-pill bg-support">1</span>
             </router-link>
           </li>
           <li class="nav-item">
             <router-link 
-              :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
+              :to="{name: APP_ROUTE_NAMES.SIGN_IN}" 
               class="nav-link text-uppercase" 
               aria-current="page"
             >
@@ -97,7 +98,7 @@
           </li>
           <li class="nav-item">
             <router-link 
-              :to="{name: APP_ROUTE_NAMES.ORDER_LIST}" 
+              :to="{name: APP_ROUTE_NAMES.SIGN_UP}" 
               class="nav-link text-uppercase" 
               aria-current="page"
             >
