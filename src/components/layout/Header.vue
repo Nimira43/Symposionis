@@ -14,7 +14,7 @@
         >        
       </router-link>
       <button
-        class="navbar-toggler bg-light"
+        class="navbar-toggler bg-light override"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -22,8 +22,15 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler icon text-light"></span>
+        <span class="navbar-toggler-icon text-light"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </template>
