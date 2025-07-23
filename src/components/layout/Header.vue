@@ -14,7 +14,7 @@
         >        
       </router-link>
       <button
-        class="navbar-toggler bg-light override"
+        class="navbar-toggler bg-light override bg-grey-medium-hover:hover"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
