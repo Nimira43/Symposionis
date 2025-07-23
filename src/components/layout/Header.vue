@@ -52,7 +52,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Admin
+              <i class="bi bi-laptop"></i>
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -112,6 +112,38 @@
             >
               Logout
             </button>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a 
+              href="#"
+              class="nav-link text-uppercase dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Admin
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <router-link 
+                  :to="{name: APP_ROUTE_NAMES.MENU_ITEM_LIST}" 
+                  class="dropdown-item text-uppercase" 
+                  aria-current="page"
+                >
+                  Menu Items
+                </router-link>
+              </li>
+              <li>
+                <router-link 
+                  :to="{name: APP_ROUTE_NAMES.MANAGE_ORDER_ADMIN}" 
+                  class="dropdown-item text-uppercase" 
+                  aria-current="page"
+                >
+                  Order Management
+                </router-link>
+              </li>
+            </ul>  
           </li>
         </ul>
       </div>
