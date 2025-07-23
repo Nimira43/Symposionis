@@ -127,7 +127,7 @@
             <ul class="dropdown-menu">
               <li>
                 <button
-                  class="dropdown-item"
+                  class="dropdown-item text-uppercase"
                   aria-content="page"
                 >
                   <i class="bi bi-sun"></i>
@@ -136,7 +136,7 @@
               </li>
               <li>
                 <button
-                  class="dropdown-item"
+                  class="dropdown-item text-uppercase"
                   aria-content="page"
                 >
                   <i class="bi bi-moon"></i>
