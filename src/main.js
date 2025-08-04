@@ -8,12 +8,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
-
-
-
 const app = createApp(App)
+const pinia = createPinia()
+pinia.use(piniaPluginPersistedstate)
+app.use(pinia)
 
-app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
