@@ -129,6 +129,7 @@
                 <button
                   class="dropdown-item text-uppercase"
                   aria-content="page"
+                  @click="themeStore.setTheme('light')"
                 >
                   <i class="bi bi-sun"></i>
                   Light
@@ -138,6 +139,7 @@
                 <button
                   class="dropdown-item text-uppercase"
                   aria-content="page"
+                  @click="themeStore.setTheme('dark')"
                 >
                   <i class="bi bi-moon"></i>
                   Dark
@@ -154,4 +156,6 @@
 <script setup>
 import { APP_ROUTE_NAMES } from '@/constants/routeNames'
 import { useThemeStore } from '@/stores/themeStore'
+
+const themeStore = useThemeStore()
 </script>
