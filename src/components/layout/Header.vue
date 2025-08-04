@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md mx-auto my-2 w-100 bg-grey-light-extra bg-opacity-10 text-grey-dark">
+  <nav class="navbar navbar-expand-md mx-auto my-2 w-100 bg-grey-medium bg-opacity-10 text-grey-dark">
     <div class="container-fluid">
       <router-link 
         class="navbar-brand" 
@@ -14,7 +14,7 @@
         >        
       </router-link>
       <button
-        class="navbar-toggler bg-light override bg-grey-medium-hover:hover"
+        class="navbar-toggler override "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
