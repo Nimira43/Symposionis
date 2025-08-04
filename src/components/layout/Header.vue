@@ -153,4 +153,5 @@
 
 <script setup>
 import { APP_ROUTE_NAMES } from '@/constants/routeNames'
+import { useThemeStore } from '@/stores/themeStore'
 </script>
