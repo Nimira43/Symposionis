@@ -16,4 +16,10 @@ app.use(pinia)
 
 app.use(router)
 
+const themeStore = useThemeStore()
+
+if (themeStore.theme) {
+  document.body.setAttribute('data-bs-theme', themeStore.theme)
+}
+
 app.mount('#app')
