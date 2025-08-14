@@ -1,0 +1,62 @@
+# .NET Core / .NET 9
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.log
+*.vspscc
+*.vssscc
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Entity Framework
+Migrations/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET secrets
+secrets.json
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Global.json SDK pin (keep this!)
+!global.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Others
+*.cache
+*.pid
+*.pdb
+**/appsettings*.json
